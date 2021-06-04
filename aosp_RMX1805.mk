@@ -14,7 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 PRODUCT_BRAND := oppo
 PRODUCT_DEVICE := RMX1805
 PRODUCT_MANUFACTURER := oppo
-PRODUCT_NAME := cherish_RMX1805
+PRODUCT_NAME := aosp_RMX1805
 PRODUCT_MODEL := realme 2
 
 # PRODUCT_GMS_CLIENTID_BASE := android-oppo
@@ -24,9 +24,10 @@ TARGET_VENDOR_PRODUCT_NAME := RMX1805
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1805"
 
-TARGET_GAPPS_ARCH :=arm64
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.cherish.maintainer=Abhinav
+    ro.aosp.maintainer=Abhinav
