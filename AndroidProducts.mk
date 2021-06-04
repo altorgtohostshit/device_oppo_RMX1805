@@ -1,3 +1,3 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_RMX1805.mk
+    $(LOCAL_DIR)/aosp_RMX1805.mk
 
