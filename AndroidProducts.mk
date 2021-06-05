@@ -1,5 +1,5 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RMX1805.mk
+    $(LOCAL_DIR)/evolution_RMX1805.mk
 
 COMMON_LUNCH_CHOICES := \
     evolution_RMX1805-user \
