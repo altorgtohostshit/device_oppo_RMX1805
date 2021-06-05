@@ -3,7 +3,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common.mk)
 
 # Inherit from RMX1805 device
 $(call inherit-product, device/oppo/RMX1805/device.mk)
@@ -14,8 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 PRODUCT_BRAND := oppo
 PRODUCT_DEVICE := RMX1805
 PRODUCT_MANUFACTURER := oppo
-PRODUCT_PLATFORM := SDM450
-PRODUCT_NAME := cherish_RMX1805
+PRODUCT_NAME := bliss_RMX1805
 PRODUCT_MODEL := realme 2
 
 # PRODUCT_GMS_CLIENTID_BASE := android-oppo
@@ -31,5 +30,5 @@ WITH_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.cherish.maintainer=Abhinav
+DEVICE_MAINTAINER := "Abhinav Sama"
+
