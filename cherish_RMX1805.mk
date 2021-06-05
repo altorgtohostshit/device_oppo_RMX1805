@@ -14,6 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 PRODUCT_BRAND := oppo
 PRODUCT_DEVICE := RMX1805
 PRODUCT_MANUFACTURER := oppo
+PRODUCT_PLATFORM := SDM450
 PRODUCT_NAME := cherish_RMX1805
 PRODUCT_MODEL := realme 2
 
