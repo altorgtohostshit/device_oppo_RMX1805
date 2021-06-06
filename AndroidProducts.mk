@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX1805.mk
+    $(LOCAL_DIR)/kangos_RMX1805.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_RMX1805-user \
-    lineage_RMX1805-userdebug \
-    lineage_RMX1805-eng
+    kangos_RMX1805-user \
+    kangos_RMX1805-userdebug \
+    kangos_RMX1805-eng
