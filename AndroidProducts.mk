@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kangos_RMX1805.mk
+    $(LOCAL_DIR)/arrow_RMX1805.mk
 
 COMMON_LUNCH_CHOICES := \
-    kangos_RMX1805-user \
-    kangos_RMX1805-userdebug \
-    kangos_RMX1805-eng
+    arrow_RMX1805-user \
+    arrow_RMX1805-userdebug \
+    arrow_RMX1805-eng
